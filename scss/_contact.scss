@@ -1,0 +1,43 @@
+$color1: #7e7e7e;
+$color2: #d6b161;
+$color3: #6f7273;
+
+.contact {
+    #content {
+        .title {
+            margin-bottom: 30px;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+    }
+    .content {
+        padding: 100px 0;
+    }
+
+    .contact-info {
+      .address {
+          margin-bottom: 30px;
+      }
+    }
+}
+
+.container {
+      .img-center {
+        img {
+              margin: 0 auto;
+          }
+      }
+}
+
+.social-media {
+    float: right;
+    text-align: center;
+    left: -50%;
+    position: relative;
+    ul {
+        display: inline-block;
+        float: left;
+        left: 50%;
+        position: relative;
+    }
+}
