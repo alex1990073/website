@@ -1,0 +1,27 @@
+#content {
+  .container {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      text-align:center;
+      .col-6 {
+        float: left;
+        display: inline-block;
+        width: 50%;
+        height: 800px;
+        padding: 150px 0 0 0;
+      }
+      .img-background {
+          background-color: rgba(68, 61, 61, 0.11);
+      }
+      .shop-background {
+          background-color: #e7e7e7;
+          p {
+            font-weight: 600;
+            font-size: 20px;
+            text-transform: capitalize;
+            color: #928f8f
+          }
+      }
+  }
+}
